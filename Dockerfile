@@ -10,5 +10,5 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt update -qq \
     && apt upgrade --yes \
-    && apt install --yes --no-install-recommends clang-format-9 \
+    && apt install --yes --no-install-recommends clang-format-10 \
     && rm -rf /var/lib/apt/lists/*
